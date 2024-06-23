@@ -22,4 +22,4 @@ BEGIN
         SIGNAL SQLSTATE '45000'
         SET MESSAGE_TEXT = 'Cannot enroll in non-existent course';
     END IF;
-END
+END;
